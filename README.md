@@ -20,10 +20,28 @@ You are to use your knowledge of AWS resources to build them a new ordering syst
 - In new-order.js create a function called "sendOrderStatus". This will be called after your order is sent to SQS. It should send a text message to the subscriber letting them know their order has been received.
 - Let instructor know when have reached this point.
 
-
-
+#### VPC Instructions
+- Create the following VPC for your web application.
+![](https://github.com/junior-devleague/aws-developer-final/blob/master/images/AWS%20Network%20Diagram.png)
 
 
 #### Deployment Instructions
-- Launch a new EC2 
+- Launch a new EC2 instance in us-west-2 and assign to your VPC.
+- SSH into your instance using your key-pair.pem file.
+- Run ```yum update``` to install any updates.
+- Install Node.js
+- Clone your repo and cd into the project.
+- Run ```npm install```
+- You will have to create a new .env file and read them in using process.env.
+- Start your server, and navigate to the instances public IP address:Port# . ex. ```54.168.22.34:3000```. You should see your website if configured properly.
+- Test your ordering system to ensure it all works still.
+
+#### CleanUp
+- Delete VPC 
+- Delete EC2 and key-pairs not being used.
+
+#### Stretch Goals
+- Create a function to delete the message from queue after it has been processed.
+- Style your application
+- Add more pages to the application
 
