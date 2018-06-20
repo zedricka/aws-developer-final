@@ -47,9 +47,10 @@ You are to use your knowledge of AWS resources to build them a new ordering syst
 - Add more pages to the application
 
 #### Resources
-[Node](https://nodejs.org/docs/latest-v9.x/api/)
-[Installing Node](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
-[Node-SDK SQS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html)
-[Node-SDK SNS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html)
+- [Node](https://nodejs.org/docs/latest-v9.x/api/)
+- [Installing Node](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+- [Node-SDK SQS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html)
+- [Node-SDK SNS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html)
+- [VPC](https://aws.amazon.com/documentation/vpc/)
 
 
