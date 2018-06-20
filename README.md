@@ -6,7 +6,7 @@ You are a developer for Creative Solutions Inc. Your company just aquired a new 
 #### Task
 You are to use your knowledge of AWS resources to build them a new ordering system. You will be using EC2, SQS, and SNS to achieve this. Your application will have the following flow: 
 
-![](https://i.imgur.com/dzXj7Eh.png)
+![](https://github.com/junior-devleague/aws-developer-final/blob/master/images/AWS%20Web%20Application%20Publishing.png)
 
 #### Instructions
 - Clone this repo and ```npm install```
