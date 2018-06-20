@@ -29,6 +29,7 @@ You are to use your knowledge of AWS resources to build them a new ordering syst
 - Launch a new EC2 instance in us-west-2 and assign to your VPC.
 - SSH into your instance using your key-pair.pem file.
 - Run ```yum update``` to install any updates.
+- Install git
 - Install Node.js
 - Clone your repo and cd into the project.
 - Run ```npm install```
@@ -44,4 +45,11 @@ You are to use your knowledge of AWS resources to build them a new ordering syst
 - Create a function to delete the message from queue after it has been processed.
 - Style your application
 - Add more pages to the application
+
+#### Resources
+[Node](https://nodejs.org/docs/latest-v9.x/api/)
+[Installing Node](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+[Node-SDK SQS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html)
+[Node-SDK SNS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html)
+
 
