@@ -51,6 +51,6 @@ You are to use your knowledge of AWS resources to build them a new ordering syst
 - [Installing Node](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
 - [Node-SDK SQS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html)
 - [Node-SDK SNS Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html)
-- [VPC](https://aws.amazon.com/documentation/vpc/)
+- [VPC](https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/getting-started-ipv4.html)
 
 
